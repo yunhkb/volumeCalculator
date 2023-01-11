@@ -16,7 +16,8 @@ int main() {
     cout<<"Cube     - 1"<<endl;
     cout<<"Cuboid   - 2"<<endl;
     cout<<"Sphere   - 3"<<endl;
-    cout<<"Cylinder - 4"<<endl<<endl;
+    cout<<"Cylinder - 4"<<endl;
+    cout<<"Pyramid  - 5"<<endl<<endl;
     
     cin>>a;
     cout<<endl;
@@ -57,6 +58,18 @@ int main() {
             cin>>y;
             cout<<endl;
             cout<<"Your cylider volume is ~ "<<(3.14*(x*x)*y)<<"cm3"<<endl;
+            
+        case 5:
+            cout<<"Enter your pyramid 1st base edge lenght"<<endl<<endl;
+            cin>>x;
+            cout<<endl;
+            cout<<"Enter your pyramid 2nd base edge lenght"<<endl<<endl;
+            cin>>y;
+            cout<<endl;
+            cout<<"Enter your pyramid height"<<endl<<endl;
+            cin>>z;
+            cout<<endl;
+            cout<<"Your pyramid volume is "<<(x*y*z/3)<<"cm3"<<endl<<endl;            
             
     }
     
