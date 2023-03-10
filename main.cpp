@@ -58,6 +58,7 @@ int main() {
             cin>>y;
             cout<<endl;
             cout<<"Your cylider volume is ~ "<<(3.14*(x*x)*y)<<"cm3"<<endl;
+            break;
             
         case 5:
             cout<<"Enter your pyramid 1st base edge lenght"<<endl<<endl;
